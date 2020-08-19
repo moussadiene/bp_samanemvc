@@ -1,0 +1,22 @@
+{
+  "name": "bpeuple_samane",
+  "version": "1.0.0",
+  "description": "utilisation de frameword samanemvc",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ngorseckframework/samanemvc.git"
+  },
+  "keywords": [
+    "bpeuple"
+  ],
+  "author": "Moussa DIENE",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ngorseckframework/samanemvc/issues"
+  },
+  "homepage": "https://github.com/ngorseckframework/samanemvc#readme"
+}
