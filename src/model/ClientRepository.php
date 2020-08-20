@@ -67,4 +67,18 @@ class ClientRepository extends Model{
 			}
 		}
 
+		public function deleteEntreprise($id){
+			if($this->db != null)
+			{
+				$ense = $this->db->find('Entreprise', $id);
+				if($ense != null)
+				{
+					$this->db->remove($ense);
+					$this->db->flush();
+				}else {
+					die("Objet ".$id." does not existe!");
+				}
+			}
+		}
+
 	}
